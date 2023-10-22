@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #2c2929;
+  color: #fff;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 0 1rem;
+}
+
+h1 {
+  margin-top: 1rem;
+  color: #ffffff;
+}
+
+.top {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+input {
+  border: none;
+  outline: none;
+  width: 600px;
+  padding: 0.5rem;
+  border-bottom: 1px solid #555555;;
+  font-size: 20px;
+  margin-bottom:10px;
+}
+
+.add {
+  display: inline-block;
+  padding: 0px 24px;
+  background-color: #0074d9;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 100px;
+  text-decoration: none;
+}
+
+.add:hover {
+  background-color: #0056b3;
+}
+
+.todo{
+  position: relative;
+  margin-top: 1rem;
+  color: #ffffff;
+  /* background-color: #555555; */
+  padding: 1.5rem 3rem;
+  border-radius:10px;
+  font-size: 20px;
+  gap: 20px;
+  border: 3px solid #555555;;
+}
+
+.icons{
+  position: absolute;
+  top: 35%;
+  transform: translate(-50%);
+  right: 10px;
+  display: flex;
+  gap:0.8rem;
+
+}
+
+.icon{
+  cursor: pointer;
+  font-size: 20px;
+
+}
+
+
+
